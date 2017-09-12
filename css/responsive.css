@@ -24,6 +24,9 @@
     body {
         background: none;
     }
+    .container {
+        padding: 0 10px;
+    }
     nav.navbar-static-top {
         border: none;
         box-shadow: none;
@@ -151,7 +154,7 @@
     }
     div.product-image {
         width: 100%;
-            height: 175px;
+        height: 175px;
     }
     div.product-description ul {
         padding-left: 16px;
