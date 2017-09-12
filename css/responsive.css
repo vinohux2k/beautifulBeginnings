@@ -1,10 +1,125 @@
-@media (min-width: 1200px){
-   .container {
-       width: 1020px;
-    } 
+.navbar-default .navbar-toggle {
+    border: none;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-   .navbar-right {
-        float: left!important; 
-    } 
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1020px;
+    }
+    div.footer-container div.row {
+        width: 1020px;
+    }
+}
+
+
+/*@media (min-width: 768px) and (max-width: 991px)*/
+
+@media(max-width:767px) {
+    body {
+        background: none;
+    }
+    nav.navbar-static-top {
+        border: none;
+        box-shadow: none;
+    }
+    .navbar-left {
+        float: left;
+    }
+    .navbar-right {
+        float: left!important;
+    }
+    header div.row.border {
+        text-align: center;
+        padding: 0
+    }
+    div.row.border div {
+        margin: 10px 0;
+    }
+    .mobile-cart {
+        float: right;
+        margin-top: 14px;
+        margin-right: 10px;
+    }
+    /*mobile menu */
+    header nav.links.navbar-collapse {
+        margin-top: 46px;
+        background-color: #fefefe;
+        width: 100%;
+    }
+    header nav.navbar ul.navbar-nav>li.first a {
+        padding-left: 15px;
+    }
+    header .border {
+        box-shadow: none;
+    }
+    nav#main-links ul {
+        margin-left: 9px;
+    }
+    nav.navbar li.last,
+    nav.navbar li.last a {
+        text-align: left;
+    }
+    .mobile-links div {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .mobile-links div.first {
+        border-right: 2px solid #ccc;
+    }
+    .mobile-links {
+        color: #777;
+        font-size: 18px;
+        font-style: italic;
+        margin-top: 10px;
+    }
+    div#slider {
+            margin-top: 49px;
+    clear: both;
+    }
+    .crib-sale {
+        text-align: center;
+    }
+    .crib-sale p.cursive {
+        color: #333333;
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .crib-sale div.button-border {
+        width: 133px;
+    }
+    /*footer*/
+    footer .glyphicon-plus {
+        color: #7494b7;
+        font-size: 17px;
+        font-weight: normal;
+    }
+    footer div.navbar-header {
+        border-bottom: 1px solid #ccc;
+    }
+    footer div.navbar-collapse {
+        border-bottom: 1px solid #ccc;
+        border-top: none;
+    }
+    section.footer-logo img {
+        width: 100%;
+    }
+    section.copyright {
+        margin-top: 14px;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 0;
+    }
+    section.copyright span {
+        display: inline-block;
+    }
+    span.copyright-links {
+        margin-top: 10px;
+    }
+    article.power {
+        margin-top: 20px;
+    }
 }
