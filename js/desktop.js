@@ -3,7 +3,7 @@ $(document).ready (function () {
     if ($(window).width() < 768) {
         $("#main-links").appendTo("header .navbar-header");
     }
-    $('section.write-reviews div.button-border').click(function () {
+    $('section.write-reviews .btn').click(function () {
     var review = $('section.write-reviews input').val();   
     $('<div class="review">' + review + '</div>').appendTo('section.reviews');
     $('section.write-reviews input').val("") 
@@ -31,5 +31,4 @@ $('.tile')
         .children('.photo').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
     });
 
- 
   
