@@ -44,6 +44,9 @@
         margin-top: 14px;
         margin-right: 10px;
     }
+    div.main-logo img {
+        width: 100%;
+    }
     /*mobile menu */
     header nav.links.navbar-collapse {
         margin-top: 46px;
@@ -121,5 +124,14 @@
     }
     article.power {
         margin-top: 20px;
+    }
+    
+    /*Product page */
+    body.product h1 {
+        clear: both;
+        margin-top: 50px;
+    }
+    section.cart-details {
+        border: none;
     }
 }

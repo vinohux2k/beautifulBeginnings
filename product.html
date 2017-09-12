@@ -17,7 +17,7 @@
 
 </head>
 
-<body class="home">
+<body class="product">
     <div class="wrapper">
         <img class="color-strip" src="assets/Color-strip.png">
 
@@ -25,65 +25,92 @@
             <header>
                 <nav class="navbar navbar-default navbar-static-top">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              </button>
-                        <p class="phone">Call us at:<a href="tel:708-246-1212">708-246-1212</a></p>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-left">
-                            <!-- <li class="phone">Call us at: <a href="tel:708-246-1212">708-246-1212</a></li> -->
-                            <li class="live-chat"><a href="#">LIVE CHAT NOW</a></li>
+                            <li class="phone">Call us at: <a href="tel:708-246-1212">708-246-1212</a>
+                            </li>
+                            <li class="live-chat hidden-xs hidden-sm"><a href="#">LIVE CHAT NOW</a>
+                            </li>
                         </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Baby Registry</a></li>
-                            <li class="border-right"><a href="#">Login/Registry <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">5 Items <span class="dot">.</span>Checkout <span class="total">$2103.92</span></a></li>
-                        </ul>
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-links" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="mobile-cart visible-xs-inline-block">
+                            <a href="#"><img src="assets/mobile-cart.png">
+                            </a>
+                        </div>
+                        <!-- end mobile-cart -->
                     </div>
-                    <!-- end nav-collapse -->
+
+
+                    <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        <li><a href="#">Baby Registry</a>
+                        </li>
+                        <li class="border-right"><a href="#">Login/Registry</a>
+                        </li>
+                        <li class="hidden-xs hidden-sm"><a href="#">5 Items <span class="dot">.</span>Checkout <span class="total">$2103.92</span></a>
+                        </li>
+                    </ul>
                 </nav>
-                <div class="mobile-cart visible-xs-inline-block">
-                    <a href="#"><img src="assets/mobile-cart.png"></a>
-                </div>
-                <!-- end mobile-cart -->
+                <!-- end navbar-static-top -->
+
+
                 <div class="row border">
-                    <div class="col-md-3 tag tagline cursive mobile-hide">Children. Our greatest earthly blessings.</div>
-                    <div class="col-md-6 main-logo"><img src="assets/LOGO.png" /></div>
-                    <div class="col-md-3 search mobile-hide">
+                    <div class="col-md-3 tag tagline cursive hidden-xs hidden-sm">Children. Our greatest earthly blessings.</div>
+                    <div class="col-md-6 main-logo"><img src="assets/LOGO.png" />
+                    </div>
+                    <div class="col-md-3 search hidden-xs hidden-sm">
                         <form class="navbar-form" role="search">
                             <div class="input-group add-on">
                                 <input class="form-control" placeholder="Search this site..." name="srch-term" id="srch-term" type="text">
                                 <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i>
+                                    </button>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
                 <!-- end row -->
-                <nav class="navbar links">
+                <div class="mobile-links visible-xs visible-sm">
+                    <div class="col-xs-6 first"><a href="#">Baby Registry</a></div>
+                    <div class="col-xs-6"><a href="#">Login/Registry</a></div>
+                </div>
+                <nav id="main-links" class="navbar links navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="first"><a href="#">BABY APPAREL   </a></li>
-                        <li><a href="#">BABYGIFTS</a></li>
+                        <li class="first"><a href="#">BABY APPAREL   </a>
+                        </li>
+                        <li><a href="#">BABYGIFTS</a>
+                        </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">CHRISTENING <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"> Silver </a></li>
-                                <li><a href="#"> All Christening </a></li>
+                                <li><a href="#"> Silver </a>
+                                </li>
+                                <li><a href="#"> All Christening </a>
+                                </li>
                             </ul>
                         </li>
-                        <li><a href="#">FURNITURE</a></li>
-                        <li><a href="#">BEDDING</a></li>
-                        <li><a href="#">DECOR</a></li>
-                        <li><a href="#">LIGHTING</a></li>
-                        <li><a href="#">SALE</a></li>
-                        <li class="last"><a href="#">BRANDS</a></li>
+                        <li><a href="#">FURNITURE</a>
+                        </li>
+                        <li><a href="#">BEDDING</a>
+                        </li>
+                        <li><a href="#">DECOR</a>
+                        </li>
+                        <li><a href="#">LIGHTING</a>
+                        </li>
+                        <li><a href="#">SALE</a>
+                        </li>
+                        <li class="last"><a href="#">BRANDS</a>
+                        </li>
                     </ul>
                 </nav>
+
+
+
             </header>
            
             <h1>Alexis Crib with Rose Garland by Newport Cottages</h1>
@@ -112,6 +139,7 @@
             <!-- end col-md-7 -->
 
             <section class="col-md-5 cart-details">
+                <h3 class="visible-xs visible-sm">Shipping & Cost Info</h3>
                 <div class="options"> 
                     <p>Usually ships within 2 to 3 days. </p>
                     <p>Delivery will be scheduled during checkout. Signature required</p>
@@ -178,18 +206,22 @@
                     <div class="col-md-2  footer footer-nav">
                         <nav class="navbar navbar-default">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#about-nav" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                  </button>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#about-us" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                </button>
                                 <h3>About Us</h3>
                             </div>
-                            <div class="collapse navbar-collapse" id="about-nav">
+                            <div class="collapse navbar-collapse" id="about-us">
                                 <ul class="nav navbar-nav text-uppercase">
-                                    <li><a href="#">OUR STORY</a></li>
-                                    <li><a href="baby_registry.html">BABY REGISTRY</a></li>
-                                    <li><a href="#">STORE LOCATION</a></li>
-                                    <li><a href="#">TESTIMONIALS</a></li>
+                                    <li><a href="#">OUR STORY</a>
+                                    </li>
+                                    <li><a href="baby_registry.html">BABY REGISTRY</a>
+                                    </li>
+                                    <li><a href="#">STORE LOCATION</a>
+                                    </li>
+                                    <li><a href="#">TESTIMONIALS</a>
+                                    </li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
@@ -198,21 +230,28 @@
                     <div class="col-md-2  footer footer-nav">
                         <nav class="navbar navbar-default">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#about-nav" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                  </button>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#service-links" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                </button>
                                 <h3>Service</h3>
                             </div>
-                            <div class="collapse navbar-collapse" id="about-nav">
+                            <div class="collapse navbar-collapse" id="service-links">
                                 <ul class="nav navbar-nav text-uppercase">
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Order Status</a></li>
-                                    <li><a href="#">Shipping Policy</a></li>
-                                    <li><a href="#">Return Policy</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Live Chat</a></li>
+                                    <li><a href="#">Contact Us</a>
+                                    </li>
+                                    <li><a href="#">Order Status</a>
+                                    </li>
+                                    <li><a href="#">Shipping Policy</a>
+                                    </li>
+                                    <li><a href="#">Return Policy</a>
+                                    </li>
+                                    <li><a href="#">Newsletter</a>
+                                    </li>
+                                    <li><a href="#">My Account</a>
+                                    </li>
+                                    <li><a href="#">Live Chat</a>
+                                    </li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
@@ -221,23 +260,32 @@
                     <div class="col-md-2  footer footer-nav">
                         <nav class="navbar navbar-default">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#about-nav" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                  </button>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#shop-links" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                </button>
                                 <h3>Shop</h3>
                             </div>
-                            <div class="collapse navbar-collapse" id="about-nav">
+                            <div class="collapse navbar-collapse" id="shop-links">
                                 <ul class="nav navbar-nav text-uppercase">
-                                    <li><a href="#">Baby Apparel</a></li>
-                                    <li><a href="#">Baby Gifts</a></li>
-                                    <li><a href="#">Christening</a></li>
-                                    <li><a href="#">Furniture</a></li>
-                                    <li><a href="#">Bedding</a></li>
-                                    <li><a href="#">Decor</a></li>
-                                    <li><a href="#">Lighting</a></li>
-                                    <li><a href="#">Sale</a></li>
-                                    <li><a href="#">Brands</a></li>
+                                    <li><a href="#">Baby Apparel</a>
+                                    </li>
+                                    <li><a href="#">Baby Gifts</a>
+                                    </li>
+                                    <li><a href="#">Christening</a>
+                                    </li>
+                                    <li><a href="#">Furniture</a>
+                                    </li>
+                                    <li><a href="#">Bedding</a>
+                                    </li>
+                                    <li><a href="#">Decor</a>
+                                    </li>
+                                    <li><a href="#">Lighting</a>
+                                    </li>
+                                    <li><a href="#">Sale</a>
+                                    </li>
+                                    <li><a href="#">Brands</a>
+                                    </li>
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
@@ -293,37 +341,43 @@
                                     <div class="input-group add-on">
                                         <input class="form-control" placeholder="Email Address..." name="email" type="text">
                                     </div>
-                                    <div class="button-border"><button type="button" class="btn text-uppercase">SEND</button></div>
+                                    <div class="button-border">
+                                        <button type="button" class="btn text-uppercase">SEND</button>
+                                    </div>
                                 </form>
                             </section>
                         </div>
                     </div>
                 </section>
                 <!-- end row -->
-                <img class="footer-colorstrip" src="assets/footer-colorstrip.png" />
+                <img class="footer-colorstrip hidden-xs hidden-sm" src="assets/footer-colorstrip.png" />
+                <img class="color-strip visible-xs visible-sm" src="assets/mobile-colorstrip.png">
+
             </footer>
         </div>
         <!-- end container -->
         <div class="container footer-container">
             <div class="row">
+                <section class="footer-logo"> <img src="assets/LOGO.png" />
+                </section>
                 <section class="copyright">
-                    <article> &#9400;2013 Beautiful Beginnings. All Rights Reserved |
-                        <a href="#">Site Map</a> |
+                    <article> <span>&#9400;2013 Beautiful Beginnings. All Rights Reserved </span>
+                        <span class="hidden-xs hidden-sm"> | </span>
+                        <span class="copyright-links"> <a href="#"> Site Map</a> |
                         <a href="#">Privacy Policy | </a>
-                        <a href="#">Terms & Conditions  </a>
+                        <a href="#">Terms & Conditions  </a></span>
                     </article>
-                    <article>
-                        <img src="assets/Power-Button.png" /> <span class="power"> Powered By: </span> <img src="assets/footer-AELogo.png" />
-                        <span class="tag">Web Site design and development by Americaneagle.com</span>
+                    <article class="power">
+                        <img src="assets/Power-Button.png" /> <span class="power text-uppercase"> Powered By: </span> <img src="assets/footer-AELogo.png" />
+                        <span class="tag hidden-xs">Web Site design and development by Americaneagle.com</span>
                     </article>
                 </section>
-                <section class="footer-logo"> <img src="assets/LOGO.png" /></section>
+
             </div>
             <!-- end row -->
-
         </div>
         <!-- end footer-container -->
-
+ 
 
     </div>
     <!-- end wrapper -->

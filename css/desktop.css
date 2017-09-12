@@ -247,7 +247,7 @@ header input.form-control {
 }
 
 .navbar-form .input-group>.form-control {
-    width: auto;
+   width: auto;
     padding-left: 4px;
 }
 
@@ -840,6 +840,10 @@ div.product-description ul li {
 
 section.write-reviews {
     margin-bottom: 20px;
+}
+
+section.write-reviews .navbar-form .input-group>.form-control {
+    width: 100%;
 }
 
 section.write-reviews form.navbar-form {
