@@ -5,7 +5,8 @@ body {
 
 /* menu */
 
-header .navbar-default, header div#navbar ul.nav>li>a:hover {
+header .navbar-default,
+header div#navbar ul.nav>li>a:hover {
     background-color: #fff;
 }
 
@@ -17,7 +18,6 @@ nav.navbar-static-top {
 /* end menu */
 
 .border {
-    /*box-shadow: 0 1px 0px #e5e5e5;*/
     box-shadow: -3px 5px 1px -4px #ccc;
 }
 
@@ -70,7 +70,6 @@ input.form-control {
     background: linear-gradient(#eaeaea, white);
 }
 
-.input-group,
 .input-group {
     border: 1px solid #eaeaea;
     padding: 2px;
@@ -81,9 +80,6 @@ div.note article.cursive {
     font-family: 'Alex Brush', cursive;
     font-weight: bold;
 }
-/*div.featured button.btn,
-footer button.btn,
-section.cart-details */
 
 button.btn {
     background-color: #ffe9e9;
@@ -92,6 +88,7 @@ button.btn {
     border-radius: 0;
     font-size: 11px;
     text-transform: uppercase;
+    outline: #ccc double;
 }
 
 .mobile-display {
@@ -107,7 +104,6 @@ button.btn {
 }
 
 header {
-    /*height: 170px;*/
     position: relative;
 }
 
@@ -133,7 +129,6 @@ nav.navbar-static-top a {
     color: #666;
 }
 
-
 .phone {
     margin-top: 3px;
     margin-right: 10px;
@@ -146,19 +141,18 @@ nav.navbar-static-top a {
 }
 
 li.live-chat {
-    border: 1px solid #f0f0f0;
-    margin-top: 11px;
+    margin-top: 13px;
 }
 
 li.live-chat a {
     background-color: #ffe9e9;
     background: linear-gradient(white, #ffe9e9);
-    border: 1px solid #d6d6d6;
     font-size: 11px;
     font-style: normal;
     font-weight: bold;
     margin: 2px;
     padding: 2px 10px;
+    outline: #ccc double;
 }
 
 ul.navbar-left>li>a {
@@ -202,8 +196,6 @@ header .row {
 
 div.tag {
     padding-left: 0;
-    /* width: 30%;
-   padding-right: 34px;*/
 }
 
 div.main-logo {
@@ -216,20 +208,15 @@ div.main-logo {
     font-size: 24px;
     text-align: center;
 }
-div.search .glyphicon {
-    color:#a4a4a4;
-}
 
-div.search {
-    /*width: 25%;*/
-    /*padding-left: 2px;*/
-    /* float: right;
-   padding-right: 0;*/
+div.search .glyphicon {
+    color: #a4a4a4;
 }
 
 header nav.links ul.nav>li>a:hover {
     background-color: #eee;
 }
+
 header nav.links.navbar-collapse {
     padding-left: 0;
 }
@@ -247,7 +234,7 @@ header input.form-control {
 }
 
 .navbar-form .input-group>.form-control {
-   width: auto;
+    width: auto;
     padding-left: 4px;
 }
 
@@ -292,6 +279,7 @@ div.search .btn {
     border-right: 1px solid #ccc;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    outline: none;
 }
 
 div.search .btn-default:hover {
@@ -299,7 +287,6 @@ div.search .btn-default:hover {
 }
 
 nav.navbar {
-    /*margin-top: 8px;*/
     margin-bottom: 0;
 }
 
@@ -420,6 +407,14 @@ div.featured {
     padding-bottom: 13px;
 }
 
+div.featured div.product {
+    cursor: pointer;
+}
+
+div.featured button.btn {
+    margin-top: 10px;
+}
+
 div.featured h2 {
     margin-bottom: 27px;
     margin-top: 11px;
@@ -450,7 +445,7 @@ div.note h2 {
     font-family: 'Libre Baskerville', serif;
 }
 
-div.note span.bold {
+div.note a.bold {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -518,13 +513,7 @@ footer .navbar-default .navbar-nav>li>a {
     color: #333;
 }
 
-
-/*footer li {
-    line-height: 25px;
-}*/
-
 footer {
-    /*font-family: 'Crete Round', serif;*/
     font-size: 13px;
 }
 
@@ -593,9 +582,8 @@ footer div.button-border {
 
 footer button.btn {
     padding-top: 9px;
-    padding-bottom: 9px;
-    padding-right: 14px;
-    padding-left: 16px;
+    margin-top: 4px;
+    margin-left: 10px;
 }
 
 img.footer-colorstrip {
@@ -615,7 +603,6 @@ div.footer-container {
 }
 
 section.copyright {
-    /*font-family: 'Crete Round', serif;*/
     color: #999999;
     font-size: 13px;
     float: left;
@@ -623,7 +610,6 @@ section.copyright {
 }
 
 section.copyright a {
-    /*font-family: 'Crete Round', serif;*/
     color: #999999;
     padding-left: 5px;
     padding-right: 5px;
@@ -635,7 +621,6 @@ span.power {
 }
 
 div.footer-container div.row {
-    /*width: 1020px;*/
     margin: 27px auto;
 }
 
@@ -658,14 +643,12 @@ section.footer-logo img {
 /* Product Page */
 
 h1 {
-    /*font-family: 'Crete Round', serif;*/
     margin-top: 0;
     margin-bottom: 34px;
 }
 
 div.price-tag {
     color: #7494b7;
-    /*font-family: 'Crete Round', serif;*/
     font-size: 32px;
     text-align: center;
 }
@@ -684,13 +667,13 @@ div.quantity {
     text-align: center;
 }
 
-div#minus.grayout {
+div#decrease.grayout {
     color: #ccc;
     border: 1px solid #ccc;
 }
 
-div#plus,
-div#minus,
+div#increase,
+div#decrease,
 input#number {
     float: left;
     width: 40px;
@@ -700,8 +683,8 @@ input#number {
     padding: 3px;
 }
 
-div#plus,
-div#minus {
+div#increase,
+div#decrease {
     font-size: 22px;
     cursor: pointer;
 }
@@ -718,6 +701,7 @@ section.cart-details div.button-border {
 
 section.cart-details button.btn {
     width: 100%;
+    margin: 20px 0px;
 }
 
 div.options {
@@ -725,6 +709,10 @@ div.options {
     padding: 9px;
     letter-spacing: 0.5px;
     margin-bottom: 10px;
+}
+
+div.options a:hover {
+    text-decoration: none;
 }
 
 section.cart-details .glyphicon {
@@ -787,10 +775,6 @@ div.product-image {
 
 /* Related Products */
 
-h4 {
-    /*font-family: 'Crete Round', serif;*/
-}
-
 section.related-products {
     text-align: center;
     margin-top: 22px;
@@ -812,10 +796,6 @@ section.reviews {
     padding-top: 20px;
 }
 
-section.reviews h3 {
-    /*font-family: 'Crete Round', serif;*/
-}
-
 div.review {
     padding: 10px;
 }
@@ -825,7 +805,6 @@ div.review:nth-child(even) {
 }
 
 div.product-description {
-    /*font-family: 'Crete Round', serif;*/
     font-size: 14px;
 }
 
@@ -844,6 +823,7 @@ section.write-reviews {
 
 section.write-reviews .navbar-form .input-group>.form-control {
     width: 100%;
+    outline: #ccc double;
 }
 
 section.write-reviews form.navbar-form {
@@ -852,6 +832,11 @@ section.write-reviews form.navbar-form {
 
 section.write-reviews div.input-group {
     width: 38%;
+    border: none;
+}
+
+section.write-reviews button.btn {
+    margin-left: 10px;
 }
 
 section.write-reviews div.button-border {
