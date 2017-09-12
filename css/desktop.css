@@ -506,6 +506,13 @@ footer {
     font-size: 13px;
 }
 
+button[aria-expanded=true] .glyphicon-plus {
+    display: none;
+}
+button[aria-expanded=false] .glyphicon-minus {
+    display: none;
+}
+
 p.store-name,
 p.store-hours {
     font-weight: bold;

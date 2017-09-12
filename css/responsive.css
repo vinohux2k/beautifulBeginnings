@@ -114,7 +114,8 @@
         margin-left: 0;
         margin-right: 0;
     }
-    footer .glyphicon-plus {
+    footer .glyphicon-plus,
+    footer .glyphicon-minus {
         color: #7494b7;
         font-size: 17px;
         font-weight: normal;
