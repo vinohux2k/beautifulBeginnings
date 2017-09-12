@@ -1,7 +1,7 @@
 
 $(document).ready (function () {
     if ($(window).width() < 768) {
-        $("#main-links").appendTo(".navbar-header");
+        $("#main-links").appendTo("header .navbar-header");
     }
     $('section.write-reviews div.button-border').click(function () {
     var review = $('section.write-reviews input').val();   

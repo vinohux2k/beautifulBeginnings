@@ -1,6 +1,6 @@
 .navbar-default .navbar-toggle {
     border: none;
-        padding-right: 0;
+    padding-right: 0;
     margin-right: 0;
 }
 
@@ -54,10 +54,9 @@
         width: 100%;
     }
     /*mobile menu */
-    div#main-links ul > li {
-            border-bottom: 1px solid #ccc;
+    nav#main-links ul>li {
+        border-bottom: 1px solid #ccc;
     }
-    
     header nav.links.navbar-collapse {
         border-width: 2px;
         margin-top: 46px;
@@ -91,8 +90,8 @@
         margin-top: 10px;
     }
     div#slider {
-            margin-top: 49px;
-    clear: both;
+        margin-top: 49px;
+        clear: both;
     }
     .crib-sale {
         text-align: center;
@@ -102,10 +101,10 @@
         font-size: 26px;
         line-height: 24px;
     }
-    button.btn, div.featured div.button-border {
+    button.btn,
+    div.featured div.button-border {
         width: 100%;
     }
-    
     /*footer*/
     footer section.row {
         margin-left: 0;
@@ -151,14 +150,13 @@
         margin-left: 0;
     }
     section.footer-logo {
-    float: none;
-    text-align: center;
-    margin-right: 0;
-}
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
     .navbar-default .navbar-toggle:hover {
         background-color: #fff;
     }
-    
     /*Product page */
     body.product h1 {
         clear: both;
@@ -184,16 +182,16 @@
         margin-top: 10px;
     }
     section.related-products p {
-            width: 100%;
+        width: 100%;
         margin: 10px auto;
-            font-size: 16px;
+        font-size: 16px;
     }
     section.write-reviews div.input-group,
-    section.write-reviews div.button-border{
-    width: 100%;
-}
-    section.write-reviews form.navbar-form, 
-    footer form.navbar-form{
+    section.write-reviews div.button-border {
+        width: 100%;
+    }
+    section.write-reviews form.navbar-form,
+    footer form.navbar-form {
         padding-left: 15px;
     }
 }
