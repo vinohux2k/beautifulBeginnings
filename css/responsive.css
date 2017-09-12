@@ -33,6 +33,7 @@
     }
     .navbar-left {
         float: left;
+        margin-left: 0;
     }
     .navbar-right {
         float: left!important;
@@ -53,7 +54,12 @@
         width: 100%;
     }
     /*mobile menu */
+    div#main-links nav.navbar ul.navbar-nav>li {
+            border-bottom: 1px solid #ccc;
+    }
+    
     header nav.links.navbar-collapse {
+        border-width: 2px;
         margin-top: 46px;
         background-color: #fefefe;
         width: 100%;
@@ -101,6 +107,10 @@
     }
     
     /*footer*/
+    footer section.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
     footer .glyphicon-plus {
         color: #7494b7;
         font-size: 17px;
@@ -160,7 +170,7 @@
         padding-left: 16px;
     }
     div.quantity-field {
-        left: 18%;
+        left: 26%;
     }
     section.related-products img {
         width: 100%;
@@ -171,10 +181,14 @@
     section.related-products p {
             width: 100%;
         margin: 10px auto;
-            font-size: 14px;
+            font-size: 16px;
     }
     section.write-reviews div.input-group,
     section.write-reviews div.button-border{
     width: 100%;
 }
+    /*section.write-reviews form.navbar-form*/
+    footer form.navbar-form{
+        padding-left: 15px;
+    }
 }
