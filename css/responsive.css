@@ -151,7 +151,10 @@
         margin-right: -8px;
     }
     section.newsletter form.navbar-form {
-        margin-bottom: 45px;
+        margin-bottom: 25px;
+    }
+    section.newsletter button.btn {
+        width: auto;
     }
     div.footer-nav div.navbar-collapse ul.navbar-nav {
         margin-left: 0;
@@ -203,6 +206,11 @@
     }
     section.write-reviews div.input-group {
         width: 100%;
+    }
+    section.write-reviews button.btn {
+        width: auto;
+        margin-top: 13px;
+        margin-left: 2px;   
     }
     section.write-reviews form.navbar-form,
     footer form.navbar-form {
