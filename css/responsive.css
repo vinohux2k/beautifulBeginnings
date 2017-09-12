@@ -143,6 +143,9 @@
     article.power {
         margin-top: 20px;
     }
+    section.newsletter .navbar-form {
+        margin-right: -8px;
+    }
     section.newsletter form.navbar-form {
         margin-bottom: 45px;
     }
@@ -156,6 +159,11 @@
     }
     .navbar-default .navbar-toggle:hover {
         background-color: #fff;
+    }
+    /*home page */
+    div.featured .row {
+        margin-right: -8px;
+        margin-left: -8px;
     }
     /*Product page */
     body.product h1 {
@@ -193,7 +201,12 @@
     }
     section.write-reviews form.navbar-form,
     footer form.navbar-form {
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    section.write-reviews form.navbar-form,
+    footer form.navbar-form {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
