@@ -1,5 +1,7 @@
 .navbar-default .navbar-toggle {
     border: none;
+        padding-right: 0;
+    margin-right: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -75,7 +77,7 @@
     }
     .mobile-links {
         color: #777;
-        font-size: 18px;
+        font-size: 14px;
         font-style: italic;
         margin-top: 10px;
     }
@@ -91,9 +93,10 @@
         font-size: 26px;
         line-height: 24px;
     }
-    .crib-sale div.button-border {
-        width: 133px;
+    button.btn, div.featured div.button-border {
+        width: 100%;
     }
+    
     /*footer*/
     footer .glyphicon-plus {
         color: #7494b7;
@@ -124,6 +127,15 @@
     }
     article.power {
         margin-top: 20px;
+    }
+    section.newsletter form.navbar-form {
+        margin-bottom: 45px;
+    }
+    div.footer-nav div.navbar-collapse ul.navbar-nav {
+        margin-left: 0;
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: #fff;
     }
     
     /*Product page */
