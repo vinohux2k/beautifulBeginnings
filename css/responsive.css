@@ -173,7 +173,8 @@
         padding-left: 16px;
     }
     div.quantity-field {
-        left: 26%;
+           left: 0;
+    margin-left: 26%;
     }
     section.related-products img {
         width: 100%;
@@ -193,5 +194,6 @@
     section.write-reviews form.navbar-form,
     footer form.navbar-form {
         padding-left: 15px;
+        padding-right: 15px;
     }
 }
